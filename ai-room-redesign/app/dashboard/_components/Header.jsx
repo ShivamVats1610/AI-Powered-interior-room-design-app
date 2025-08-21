@@ -1,6 +1,6 @@
 "use client";
 import React, { useContext } from "react";
-import { UserDetailContext } from "@/app/_context/UserDetailContext";
+import { UserDetailContext } from "@/app/context/UserDetailContext";
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";

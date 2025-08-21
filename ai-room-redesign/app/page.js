@@ -45,7 +45,7 @@ export default function Home() {
       {/* Showcase Image */}
       <section className="py-16 flex justify-center px-6">
         <Image
-          src="/group.png" // put your combined image in /public folder
+          src="/group.png" // make sure this image exists in /public
           width={1000}
           height={500}
           alt="Room transformation with AI"

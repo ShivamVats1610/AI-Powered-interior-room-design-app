@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useContext } from "react";
-import { UserDetailContext } from "../_context/UserDetailContext"; // adjust path
+import { UserDetailContext } from "../context/UserDetailContext"; // adjust path
 import Image from "next/image";
 import { UserButton, useUser, RedirectToSignIn } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
